@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NopalColors</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NopalColors: pintura ecológica a base de nopal. Conoce el proyecto, su propuesta y su kit infantil.">
+  <title>NopalColors | Color que nace de la naturaleza</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fredoka:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>NopalColors</h1>
-    <p>Pintura ecológica a base de nopal</p>
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="NopalColors, inicio">
+      <img src="img/logo.png" alt="NopalColors">
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#proyecto">Proyecto</a>
+      <a href="#por-que">¿Por qué nopal?</a>
+      <a href="#producto">Kit infantil</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Innovación • Naturaleza • Color</span>
+        <h1>El color también puede <em>nacer de la naturaleza.</em></h1>
+        <p>NopalColors explora el uso del nopal como base para desarrollar una propuesta de pintura con enfoque ecológico.</p>
+        <a class="btn" href="#proyecto">Conoce el proyecto <span>↓</span></a>
+      </div>
+      <div class="hero-art reveal">
+        <div class="blob blob-one"></div>
+        <div class="blob blob-two"></div>
+        <img src="img/mascota.png" alt="Mascota de NopalColors sosteniendo un pincel">
+      </div>
+    </section>
+
+    <section class="intro section" id="proyecto">
+      <div class="section-label">01 / El proyecto</div>
+      <div class="intro-grid">
+        <h2>Una idea que transforma un recurso natural en una experiencia de color.</h2>
+        <div>
+          <p class="lead">NopalColors nace de una pregunta sencilla: ¿cómo podemos aprovechar los recursos que nos ofrece la naturaleza para crear nuevas alternativas?</p>
+          <p>El proyecto toma como punto de partida el mucílago del nopal y lo lleva al mundo de la pintura, combinando creatividad, investigación y una visión de aprovechamiento responsable.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="nature section" id="por-que">
+      <div class="nature-copy reveal">
+        <div class="section-label">02 / ¿Por qué nopal?</div>
+        <h2>Un ingrediente de nuestra tierra, una nueva posibilidad.</h2>
+        <p>El nopal forma parte de la identidad y de los paisajes de México. NopalColors busca darle una nueva aplicación dentro de una propuesta enfocada en la creatividad y el cuidado del entorno.</p>
+      </div>
+      <div class="benefits">
+        <article class="benefit reveal">
+          <span>01</span>
+          <h3>Aprovechamiento</h3>
+          <p>Exploramos el potencial de un recurso natural abundante y cercano.</p>
+        </article>
+        <article class="benefit reveal">
+          <span>02</span>
+          <h3>Enfoque ecológico</h3>
+          <p>Una propuesta que pone al medio ambiente en el centro de la conversación.</p>
+        </article>
+        <article class="benefit reveal">
+          <span>03</span>
+          <h3>Creatividad</h3>
+          <p>Convertimos la innovación en una experiencia que invita a crear y experimentar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="product section" id="producto">
+      <div class="section-label">03 / Nuestra propuesta</div>
+      <div class="product-heading">
+        <div>
+          <h2>Kit infantil</h2>
+          <p>Una forma divertida de acercar el color y la creatividad a niñas y niños.</p>
+        </div>
+       <!-- <div class="product-tag">3 espacios para tus fotos</div> -->
+      </div>
+
+      <!-- CAMBIA SOLAMENTE LOS NOMBRES DE ESTAS 3 IMÁGENES -->
+      <div class="product-gallery">
+        <figure class="product-photo">
+          <img src="img/producto-1.jpeg" alt="Kit infantil NopalColors">
+          <figcaption>El kit</figcaption>
+        </figure>
+        <figure class="product-photo">
+          <img src="img/producto-2.jpeg" alt="Contenido del kit infantil NopalColors">
+          <figcaption>Lo que incluye</figcaption>
+        </figure>
+        <figure class="product-photo">
+          <img src="img/producto-3.jpeg" alt="Uso creativo del kit infantil NopalColors">
+          <figcaption>Crear y experimentar</figcaption>
+        </figure>
+      </div>
+
+      <div class="product-note">
+        <span>🌵</span>
+        <p><strong>Un proyecto que conecta naturaleza y creatividad.</strong><br>
+        Es una colución ecológica segura y accesible que transforma la manera de crear y cuidar nuestro entorno.</p>
+      </div>
+    </section>
+
+    <section class="statement">
+      <div class="statement-inner reveal">
+        <span class="eyebrow">NopalColors</span>
+        <h2>Del nopal al color.<br><em>De la idea a la creación.</em></h2>
+      </div>
+    </section>
+
+    <section class="about section">
+      <div class="section-label">04 / Nuestra visión</div>
+      <div class="about-grid">
+        <h2>Crear pensando en el futuro.</h2>
+        <p>NopalColors representa una búsqueda por encontrar nuevas maneras de aprovechar lo que tenemos a nuestro alrededor. Es una propuesta donde la innovación, la educación ambiental y la creatividad pueden encontrarse en un mismo proyecto.</p>
+      </div>
+    </section>
+
+    <section class="contact section" id="contacto">
+      <div class="contact-card reveal">
+        <div>
+          <div class="section-label">05 / Contacto</div>
+          <h2>¿Quieres conocer más sobre NopalColors?</h2>
+          <p>Para información sobre el proyecto, presentaciones o colaboración, ponte en contacto con nosotros.</p>
+        </div>
+        <a class="email" href="mailto:TU_CORREO_AQUI">nopalcolors@tec.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="img/logo.png" alt="NopalColors">
+    <p>Color que nace de la naturaleza.</p>
+    <span>© <span id="year"></span> NopalColors</span>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
